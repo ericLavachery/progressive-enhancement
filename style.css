@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to left, white, #fffbc3), url("./img/treffle.png"),;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    font-family: 'Bitter', serif;
+    color: #4e4e4e;
+    max-width: 90%;
+    margin: auto;
+}
+p{
+    line-height: 19px;
+    font-size: 15px;
+}
+blockquote{
+    line-height: 28px;
+    width: 50%;
+    margin: auto;
+    font-size: 24px;
+    background-color: #ededed;
+    border-left: #e87841 3px solid;
+    padding: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+a{
+    color: #a70032;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: #690000;
+    text-decoration: none;
+}
