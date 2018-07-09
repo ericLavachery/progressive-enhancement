@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to left, white, #fffbc3), url("./img/treffle.png"),;
+    background-image: url("./img/nuage.png"), linear-gradient(to right, white, #c8f044);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
@@ -9,28 +9,111 @@ body{
     margin: auto;
 }
 p{
-    line-height: 19px;
-    font-size: 15px;
+    line-height: 24px;
+    font-size: 16px;
 }
 blockquote{
     line-height: 28px;
     width: 50%;
     margin: auto;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #ededed;
     border-left: #e87841 3px solid;
     padding: 30px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    display: inline-block;
 }
 a{
-    color: #a70032;
+    color: #a70096;
     text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
 }
 a:visited{
-    color: #690000;
+    color: #7700a7;
     text-decoration: none;
+}
+.villageois{
+    background-color: #b3fefc;
+}
+.fermier{
+    background-color: #feb3f6;
+}
+header p:nth-of-type(2){
+    background-color: #dbff00;
+    padding: 5px;
+}
+.bien, .mal{
+    text-transform: uppercase;
+}
+.bien{
+    color: #009035;
+}
+.mal{
+    color: #d92100;
+}
+tr:nth-child(even){
+    background: #ffffff;
+}
+tr:nth-child(odd) {
+    background: #dadada;
+}
+td, th{
+    padding: 10px;
+    min-width: 300px;
+}
+table tr:nth-of-type(1){
+    background: #95a0ff;
+}
+table{
+    caption-side: bottom;
+}
+header p:nth-of-type(1){
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 57px;
+}
+ul li:nth-of-type(1){
+    background-image: url("img/bien.png");
+    background-repeat: no-repeat;
+}
+ul li:nth-of-type(2){
+    background-image: url("img/mal.png");
+    background-repeat: no-repeat;
+}
+ul li:nth-of-type(3){
+    background-image: url("img/chat.png");
+    background-repeat: no-repeat;
+}
+figure{
+    float: left;
+    margin-left: 0;
+    padding-left: 0;
+    clear: left;
+}
+img{
+    width: 400px;
+    display: block;
+    /* float: left; */
+}
+body blockquote{
+    text-align: center;
+}
+h2{
+    clear: left;
+}
+div{
+    text-align: center;
+}
+.kleer{
+    clear: left;
 }
